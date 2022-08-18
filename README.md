@@ -1,1 +1,0 @@
-# daire-diliminin-alan-n-hesaplayan-program

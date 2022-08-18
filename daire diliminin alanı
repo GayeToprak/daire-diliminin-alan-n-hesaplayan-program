@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class main{
+
+  public static void main(string[] args){
+  
+  int r , alfa;
+  double pi = 3.14
+  
+  Scanner inp = new Scanner(System.in);
+  
+  System.out.println("yarıçapı giriniz");
+  r = inp.nextInt();
+  
+  System.out.println("alfayı giriniz");
+  alfa = inp.nextInt();
+  
+  double daireDilimininAlanı = (pi*(r*r)*alfa)/360;
+  
+  System.out.println("daire diliminin alanı: " + daireDilimininAlanı);
+  
+  }
+  
+}
